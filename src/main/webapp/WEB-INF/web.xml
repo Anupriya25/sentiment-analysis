@@ -1,7 +1,132 @@
-<!DOCTYPE web-app PUBLIC
- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
- "http://java.sun.com/dtd/web-app_2_3.dtd" >
-
+<?xml version="1.0" encoding="UTF-8"?>
 <web-app>
-  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>com.sentiment.Register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.sentiment.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>com.sentiment.Logout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>Changepass</servlet-name>
+    <servlet-class>com.sentiment.Changepass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Changepass</servlet-name>
+    <url-pattern>/Changepass</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Fetchtweets</servlet-name>
+    <servlet-class>com.sentiment.Fetchtweets</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Fetchtweets</servlet-name>
+    <url-pattern>/Fetchtweets</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Goback</servlet-name>
+    <servlet-class>com.sentiment.Goback</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Goback</servlet-name>
+    <url-pattern>/Goback</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+    <servlet-name>Goback1</servlet-name>
+    <servlet-class>com.sentiment.Goback1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Goback1</servlet-name>
+    <url-pattern>/Goback1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Goback2</servlet-name>
+    <servlet-class>com.sentiment.Goback2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Goback2</servlet-name>
+    <url-pattern>/Goback2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Viewtweets</servlet-name>
+    <servlet-class>com.sentiment.Viewtweets</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Viewtweets</servlet-name>
+    <url-pattern>/Viewtweets</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Sentimentprocess</servlet-name>
+    <servlet-class>com.sentiment.Sentimentprocess</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Sentimentprocess</servlet-name>
+    <url-pattern>/Sentimentprocess</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>Cleardatabase</servlet-name>
+    <servlet-class>com.sentiment.Cleardatabase</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Cleardatabase</servlet-name>
+    <url-pattern>/Cleardatabase</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>Uploadexeloriginaldata</servlet-name>
+    <servlet-class>com.sentiment.Uploadexeloriginaldata</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Uploadexeloriginaldata</servlet-name>
+    <url-pattern>/Uploadexeloriginaldata</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>Exceldata</servlet-name>
+    <servlet-class>com.sentiment.Exceldata</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Exceldata</servlet-name>
+    <url-pattern>/Exceldata</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Barchart</servlet-name>
+    <servlet-class>com.dataa.Barchart</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Barchart</servlet-name>
+    <url-pattern>/Barchart</url-pattern>
+  </servlet-mapping>
+
 </web-app>

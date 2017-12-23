@@ -5,3 +5,4 @@
 sentimentanalysis.iml
 
 target/
+*.iml
