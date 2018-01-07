@@ -25,6 +25,8 @@
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>jstl</artifactId>
+      <version>1.2</version>
+      <scope>provided</scope>
     </dependency>
 
     <dependency>
@@ -94,7 +96,11 @@
       <artifactId>signpost-commonshttp4</artifactId>
       <version>1.2.1.2</version>
     </dependency>
-
+    <dependency>
+      <groupId>com.mchange</groupId>
+      <artifactId>c3p0</artifactId>
+      <version>0.9.5.2</version>
+    </dependency>
 
 
   </dependencies>

@@ -196,6 +196,7 @@ public class Sentimentprocess extends HttpServlet
 	
 			catch (Exception e) {
 			// TODO: handle exception
+				e.printStackTrace();
 		}
 			
 		

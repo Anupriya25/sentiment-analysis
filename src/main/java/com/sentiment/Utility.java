@@ -83,7 +83,7 @@ public class Utility
 			String path=f.getParent();
 			Properties property = new Properties();
 			FileInputStream in=null;
-			in = new FileInputStream(path+"\\Config.properties");
+			in = new FileInputStream(path+File.separator+"config.properties");
 			property.load(in);
 			pro=property.getProperty(str);
 			//System.out.println("Property to return : "+pro);
